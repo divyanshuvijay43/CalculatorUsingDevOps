@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of Calculator
-  hosts: all
+  hosts: ubuntu
   tasks:
     - name: Pull image
       docker_image:
